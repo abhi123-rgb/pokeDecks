@@ -225,7 +225,7 @@ input[type="text"]:focus {
 
 #message {
     position: absolute;
-    top: 2rem;
+    bottom: 2rem;
     left: 50%;
     color: red;
     font-size: 14px;
