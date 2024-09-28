@@ -32,6 +32,7 @@ body {
 
 #navBar h1{
     margin: 15px 0px;
+    font-size: clamp(1rem, 1.465rem + 5.355vw,1.8rem);
     /* color: white; */
 }
 
