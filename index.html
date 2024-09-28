@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
+    <title>PokeDecks</title>
+
+</head>
+
+<body>
+
+    <div class="hero">
+        <img src="pikachu.svg" alt="pikachu image" id="pikachu">
+
+        <div class="wrapper">
+            <h1>Get you favorate Pokemon.</h1>
+            <select name="" id="inputBox1">
+                <option value="Select your Pokemon" hidden>Select your pokemon</option>
+                <option value="normal">normal</option>
+                <option value="fighting">fighting</option>
+                <option value="flying">flying</option>
+                <option value="poison">poison</option>
+                <option value="ground">ground</option>
+                <option value="rock">rock</option>
+                <option value="bug">bug</option>
+                <option value="ghost">ghost</option>
+                <option value="steel">steel</option>
+                <option value="fire">fire</option>
+                <option value="grass">grass</option>
+                <option value="electric">electric</option>
+                <option value="psychic">psychic</option>
+                <option value="dragon">dragon</option>
+                <option value="dark">dark</option>
+                <option value="fairy">fairy</option>
+                <option value="stellar">stellar</option>
+
+            </select>
+            <input type="number" id="inputBox2">
+            <button id="btn">Fetch Cards</button>
+        </div>
+        <span id="message">Please select number between 'zero' and 'Hundred'</span>
+        <p id="SD">Scroll Down</p>
+    </div>
+
+    <div class="cardShow">
+        <h1 id="type"></h1>
+        <div class="container"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
